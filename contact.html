@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="center">
+            <div>
+                <img src="./img/Selma.png"></img>
+            </div>
+            <h1>Entre em contato!</h1>
+        </header>
+        <form class="contact-form" action="https://formsubmit.co/kdsselma@gmail.com" method="POST">
+            <div>
+                <label for="name">Nome</label>
+                <input type="name" name="name" id="name" placeholder="Digite seu nome completo" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+            <div>
+                <label for="message">Mensagem</label>
+                <input type="text" name="message" id="message" placeholder="Digite sua mensagem" required>
+            </div>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_next" value="https://github.com/Selma-Souza/selma-souza.github.io">
+            <input type="hidden" name="_subject" value="New submission!">
+        </form>
+    </div>
+
+</body>
+</html>
